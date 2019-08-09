@@ -14,5 +14,8 @@
     <input type="text" name="codigo" id="">
     <input type="submit" value="Consultar">
     </form>
+    <hr>
+    <h2>Consulta de manuales</h2>
+    Selecciona el manual a consultar:
 </body>
 </html>

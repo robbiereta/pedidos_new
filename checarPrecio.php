@@ -9,7 +9,7 @@ if($link === false){
 }
 if(isset($_POST["codigo"])){
     $codigo=$_POST["codigo"];
-    echo  "codigo del producto :".$codigo;
+    echo  "Código del producto :".$codigo;
 }
 // Attempt select query execution
 $sql = "SELECT * FROM productos WHERE codigo='$codigo'";
@@ -18,7 +18,11 @@ if($result = mysqli_query($link, $sql)){
         echo "<hr>";
         while($row = mysqli_fetch_array($result)){
             echo "<tr>";
-                echo "<td> Precio del producto: " . $row['precio'] . "</td>";
+                
+                
+                echo "<td> Descripción: " . $row['descripcion'] . "</td>";
+                echo "<hr>";
+                echo "<td> <h3>Precio del producto: " . $row['precio'] . "</h3></td>";
                
             echo "</tr>";
         }
