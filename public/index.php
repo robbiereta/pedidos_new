@@ -32,6 +32,12 @@
    
   </form>
     <div></div>
+
+    <ul id="userList"></ul>
+
+    <div id="userDetail">
+     <!-- <p >Name :<strong class="detailName"></strong></p> -->
+    </div>
     
     <!--     -->
     <br>
@@ -45,6 +51,7 @@
 
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
+<script src="app.js"></script>
 <script> 
    function setIframeSource() {
    var theSelect = document.getElementById('location');
