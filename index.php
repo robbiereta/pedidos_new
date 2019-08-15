@@ -25,9 +25,22 @@
     <br>
     <form id="form1" method="post">
     <label >Atom 150</label>
-    <select id="location" onchange="setIframeSource()"> 
+    <select id="location" onchange="setIframeSource()">
+    <optgroup label="Motor"> 
     <option selected value="relleno.html">Por favor, selecciona una parte</option>
-    <option value="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGviYJkQ4UHnZmZiz2yjQPEEkhAV9mK7iPXtGKZOfr4TshQ5nMJNL7UzqMySudyY30Iz75rJSkspb/pubhtml?gid=778975291&amp;single=true&amp;widget=true&amp;headers=false">Cilindro</option>
+    <option value="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGviYJkQ4UHnZmZiz2yjQPEEkhAV9mK7iPXtGKZOfr4TshQ5nMJNL7UzqMySudyY30Iz75rJSkspb/pubhtml?gid=778975291&amp;single=true&amp;widget=true&amp;headers=false">Cabeza y Cilindro</option>
+    <option value="">VALVULAS Y BALANCINES</option>
+    <option value="">CARTERS DE MOTOR></option>
+    <option value="">CLUTCH</option>
+    <option value="">BOMBA DE ACEITE</option>
+    <option value="">CUBIERTAS DE CARTERS</option>
+    <option value="">CIGÜEÑAL Y PISTÓN</option>
+    <option value="">TRANSMISION</option>
+    <option value="">SELECTOR DE CAMBIOS</option>
+    <option value="">MOTOR DE ARRANQUE</option>
+    <option value="">MAGNETO</option>
+    <option value="">CARBURADOR</option>
+    </optgroup>
   </select>
    
   </form>
