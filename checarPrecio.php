@@ -12,7 +12,7 @@ if(isset($_POST["codigo"])){
     echo  "Código del producto :".$codigo;
 }
 // Attempt select query execution
-$sql = "SELECT * FROM sheet1 WHERE codigo='$codigo'";
+$sql = "SELECT * FROM mytable WHERE Codigo='$codigo'";
 if($result = mysqli_query($link, $sql)){
     if(mysqli_num_rows($result) > 0){
         echo "<hr>";
@@ -22,7 +22,7 @@ if($result = mysqli_query($link, $sql)){
                 
                 echo "<td> Descripción: " . $row['Descripcion'] . "</td>";
                 echo "<hr>";
-                echo "<td> <h3>Precio del producto: $ " . $row['Precio Bici-Vic'] . "</h3></td>";
+                echo "<td> <h3>Precio del producto: $ " . $row['Precio_BiciVic'] . "</h3></td>";
                
             echo "</tr>";
         }
