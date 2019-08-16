@@ -39,3 +39,7 @@ if($result = mysqli_query($link, $sql)){
 //Close connection
 mysqli_close($link);
 ?>
+<hr>
+<br>
+    <a href="../pedidos_agosto">Regresar a seleccion de refacciones</a>
+    <!-- transformar la lista de precios a csv para poder subirla a phpmyadmin -->

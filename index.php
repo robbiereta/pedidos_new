@@ -26,9 +26,9 @@
     <form id="form1" method="post">
     <label >Atom 150</label>
     <select id="location" onchange="setIframeSource()">
-    <optgroup label="Motor"> 
+    <optgroup label="MOTOR"> 
     <option selected value="relleno.html">Por favor, selecciona una parte</option>
-    <option value="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGviYJkQ4UHnZmZiz2yjQPEEkhAV9mK7iPXtGKZOfr4TshQ5nMJNL7UzqMySudyY30Iz75rJSkspb/pubhtml?gid=778975291&amp;single=true&amp;widget=true&amp;headers=false">Cabeza y Cilindro</option>
+    <option value="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrGviYJkQ4UHnZmZiz2yjQPEEkhAV9mK7iPXtGKZOfr4TshQ5nMJNL7UzqMySudyY30Iz75rJSkspb/pubhtml?gid=778975291&amp;single=true&amp;widget=true&amp;headers=false">CABEZA Y CILINDRO</option>
     <option value="">VALVULAS Y BALANCINES</option>
     <option value="">CARTERS DE MOTOR></option>
     <option value="">CLUTCH</option>
@@ -41,6 +41,31 @@
     <option value="">MAGNETO</option>
     <option value="">CARBURADOR</option>
     </optgroup>
+    <optgroup label="PLASTICOS">
+    <option value="">PLASTICOS</option>
+    </optgroup>
+    <optgroup label="ELECTRICO">
+    <option value="">FARO,TABLERO,DIRECCIONALES Y STOP</option>
+    <option value="">SISTEMA ELECTRICO Y COMPONENTES</option>
+    <option value="">CONTROL DE MANDOS Y CHICOTES</option>
+    </optgroup>
+    <optgroup label="CHASIS">
+    <option value="">POSAPIES,PEDALES Y PARADORES</option>
+    <option value="">FILTRO DE AIRE Y ESCAPE</option>
+    <option value="">TANQUE DE COMBUSTIBLE</option>
+    <option value="">BARRAS Y AMORTIGUADOR</option>
+    <option value="">YUGO</option>
+    <option value="">LLANTA Y FRENO DELANTERO</option>
+    <option value="">HORQUILLA</option>
+    <option value=""> LLANTA Y FRENO TRASERO</option>
+    <option value="">CHASIS</option>
+    
+    </optgroup>
+  </select>
+<br>
+<label for="">Classic 125</label>
+  <select name="classic" id="">
+  <option value="">Seleccciona</option>
   </select>
    
   </form>
