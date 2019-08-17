@@ -41,5 +41,5 @@ mysqli_close($link);
 ?>
 <hr>
 <br>
-    <a href="../pedidos_agosto">Regresar a seleccion de refacciones</a>
+    <a href="../pedidos_new">Regresar a seleccion de refacciones</a>
     <!-- transformar la lista de precios a csv para poder subirla a phpmyadmin -->
