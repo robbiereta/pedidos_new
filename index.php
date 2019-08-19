@@ -180,6 +180,7 @@
     <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>
     <optgroup label="MOTOR">	MOTOR			</optgroup>
 <option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3FXJo1Hys2XzMefb-lFwY2SmzQ72fcbMpD7l5PtUrMBD6jpLsGXcmSnB5t1-bzm4QEMKHplbd8WJL/pubhtml?gid=1888404947&single=true">	CABEZA Y CILINDRO			</option>
+<<<<<<< HEAD
 <option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3FXJo1Hys2XzMefb-lFwY2SmzQ72fcbMpD7l5PtUrMBD6jpLsGXcmSnB5t1-bzm4QEMKHplbd8WJL/pubhtml?gid=621051059&single=true">	VALVULAS Y BALANCINES			</option>
 <option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3FXJo1Hys2XzMefb-lFwY2SmzQ72fcbMpD7l5PtUrMBD6jpLsGXcmSnB5t1-bzm4QEMKHplbd8WJL/pubhtml?gid=1622284340&single=true">	CARTERS DE MOTOR			</option>
 <option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3FXJo1Hys2XzMefb-lFwY2SmzQ72fcbMpD7l5PtUrMBD6jpLsGXcmSnB5t1-bzm4QEMKHplbd8WJL/pubhtml?gid=1685546911&single=true">	CLUTCH			</option>
@@ -199,6 +200,27 @@
 <option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3FXJo1Hys2XzMefb-lFwY2SmzQ72fcbMpD7l5PtUrMBD6jpLsGXcmSnB5t1-bzm4QEMKHplbd8WJL/pubhtml?gid=1223456129&single=true">	CONTROL DE MANDOS Y CHICOTES			</option>
 <optgroup label="CHASIS">	CHASIS			</optgroup>
 <option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3FXJo1Hys2XzMefb-lFwY2SmzQ72fcbMpD7l5PtUrMBD6jpLsGXcmSnB5t1-bzm4QEMKHplbd8WJL/pubhtml?gid=1726850240&single=true">	POSAPIES Y PEDALES			</option>
+=======
+<option value= "">	VALVULAS Y BALANCINES			</option>
+<option value= "">	CARTERS DE MOTOR			</option>
+<option value= "">	CLUTCH			</option>
+<option value= "">	BOMBA DE ACEITE			</option>
+<option value= "">	CUBIERTAS DE CARTER			</option>
+<option value= "">	CIGÜEÑAL			</option>
+<option value= "">	TRANSMISON			</option>
+<option value= "">	SELECTOR DE CAMBIOS			</option>
+<option value= "">	MOTOR DE ARRANQUE			</option>
+<option value= "">	MAGNETO			</option>
+<option value= "">	CARBURADOR			</option>
+<optgroup label="PLASTICOS">	PLÁSTICOS			</optgroup>
+<option value= "">	PLASTICOS			</option>
+<optgroup label="ELECTRICO">	ELÉCTRICO			</optgroup>
+<option value= "">	FARO, TABLERO, DIRECCIONALES Y STOP			</option>
+<option value= "">	SISTEMA ELECTRICO Y COMPONENTES			</option>
+<option value= "">	CONTROL DE MANDOS Y CHICOTES			</option>
+<optgroup label="CHASIS">	CHASIS			</optgroup>
+<option value= "">	POSAPIES Y PEDALES			</option>
+>>>>>>> 605585df052136e3189ac55c197489f561e06e70
 <option value= "">	FILTRO DE AIRE Y ESCAPE			</option>
 <option value= "">	TANQUE DE COMBUSTIBLE			</option>
 <option value= "">	BARRAS Y AMORTIGUADORE			</option>
