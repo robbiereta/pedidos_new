@@ -144,34 +144,34 @@
     <select id="location4" onchange="setIframeSource4()">
     <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>	
     <optgroup label="MOTOR">	MOTOR	</optgroup>
-<option value= "">	CABEZA Y CILINDRO	</option>
-<option value= "">	VALVULAS Y BALANCINES	</option>
-<option value= "">	CARTERS DE MOTOR	</option>
-<option value= "">	CLUTCH	</option>
-<option value= "">	BOMBA DE ACEITE Y TENSOR DE CADENA	</option>
-<option value= "">	CUBIERTAS DE CARTERS	</option>
-<option value= "">	CIGÜEÑAL Y PISTON	</option>
-<option value= "">	TRANSMISION Y FLECHA DE ARRANQUE	</option>
-<option value= "">	SELECTOR DE CAMBIOS	</option>
-<option value= "">	MOTOR DE ARRANQUE	</option>
-<option value= "">	MAGNETO	</option>
-<option value= "">	CARBURADOR	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=770001017&single=true">	CABEZA Y CILINDRO	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=1176194883&single=true">	VALVULAS Y BALANCINES	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=613848446&single=true">	CARTERS DE MOTOR	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=992147344&single=true">	CLUTCH	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=820294833&single=true">	BOMBA DE ACEITE Y TENSOR DE CADENA	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=1042726915&single=true">	CUBIERTAS DE CARTERS	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=681181104&single=true">	CIGÜEÑAL Y PISTON	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=1260429896&single=true">	TRANSMISION Y FLECHA DE ARRANQUE	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=543905779&single=true">	SELECTOR DE CAMBIOS	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=1264970556&single=true">	MOTOR DE ARRANQUE	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=134331251&single=true">	MAGNETO	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=1998795321&single=true">	CARBURADOR	</option>
 <optgroup label="PLASTICOS">	PLÁSTICOS	</optgroup>
-<option value= "">	PLASTICOS	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=893012072&single=true">	PLASTICOS	</option>
 <optgroup label="ELECTRICO">	ELÉCTRICO	</optgroup>
-<option value= "">	FARO TABLERO DIRECCIONALES Y STOP	</option>
-<option value= "">	SISTEMA ELECTRICO Y COMPONENTES	</option>
-<option value= "">	CONTROL DE MANDOS	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=1351113010&single=true">	FARO TABLERO DIRECCIONALES Y STOP	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=351276071&single=true">	SISTEMA ELECTRICO Y COMPONENTES	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=39354096&single=true">	CONTROL DE MANDOS	</option>
 <optgroup label="CHASIS">	CHASIS	</optgroup>
-<option value= "">	POSAPIES Y PEDALES	</option>
-<option value= "">	FILTRO Y ESCAPE	</option>
-<option value= "">	TANQUE DE COMBUSTIBLE	</option>
-<option value= "">	BARRAS DELANTERAS Y AMORTIGUADOR	</option>
-<option value= "">	YUGO	</option>
-<option value= "">	LLANTA Y FRENO DELANTERO	</option>
-<option value= "">	HORQUILLA	</option>
-<option value= "">	LLANTA Y FRENO TRASERO	</option>
-<option value= "">	CUADRO	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=54432559&single=true">	POSAPIES Y PEDALES	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=44461693&single=true">	FILTRO Y ESCAPE	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=316791152&single=true">	TANQUE DE COMBUSTIBLE	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=172274622&single=true">	BARRAS DELANTERAS Y AMORTIGUADOR	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=315084946&single=true">	YUGO	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=1517888276&single=true">	LLANTA Y FRENO DELANTERO	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=196171835&single=true">	HORQUILLA	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=2004236546&single=true">	LLANTA Y FRENO TRASERO	</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=1501831682&single=true">	CUADRO	</option>
     </select>
 
     <br>
@@ -179,7 +179,7 @@
     <select id="location5" onchange="setIframeSource5()">
     <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>
     <optgroup label="MOTOR">	MOTOR			</optgroup>
-<option value= "">	CABEZA Y CILINDRO			</option>
+<option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3FXJo1Hys2XzMefb-lFwY2SmzQ72fcbMpD7l5PtUrMBD6jpLsGXcmSnB5t1-bzm4QEMKHplbd8WJL/pubhtml?gid=1888404947&single=true">	CABEZA Y CILINDRO			</option>
 <option value= "">	VALVULAS Y BALANCINES			</option>
 <option value= "">	CARTERS DE MOTOR			</option>
 <option value= "">	CLUTCH			</option>
