@@ -9,28 +9,27 @@ if($link === false){
 }
 if(isset($_POST["codigo"])){
     $codigo=$_POST["codigo"];
-    echo  "Código del producto :".$codigo;
+    echo  "<h3>Código del producto :".$codigo. "</h3>";
 }
 // Attempt select query execution
 $sql = "SELECT * FROM mytable WHERE Codigo='$codigo'";
 if($result = mysqli_query($link, $sql)){
     if(mysqli_num_rows($result) > 0){
         echo "<hr>";
-        while($row = mysqli_fetch_array($result)){
+        $row = mysqli_fetch_array($result);
             echo "<tr>";
-                
-                
+                     
                 echo "<td> Descripción: " . $row['Descripcion'] . "</td>";
                 echo "<hr>";
-                echo "<td> <h3>Precio del producto: $ " . $row['Precio_BiciVic'] . "</h3></td>";
+                echo "<td> <h2>Precio del producto: $ " . $row['Precio_BiciVic'] . "</h2></td>";
                
             echo "</tr>";
-        }
+        
         echo "</table>";
         // Free result set
         mysqli_free_result($result);
     } else{
-        echo "No records matching your query were found.";
+        echo "No se hallo el producto o no lo tiene la fabrica.";
     }
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
