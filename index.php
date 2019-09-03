@@ -280,7 +280,7 @@
     </select>
 
     <br>
-    <span>Galaxy 2015</span>
+    <span>Galaxy (2015)</span>
     <select id="location8" onchange="setIframeSource8()">
     <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>
     <optgroup label="MOTOR">	MOTOR		</optgroup>
