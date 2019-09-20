@@ -26,12 +26,13 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Kurazai <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="pedidos.php">Pedidos</a>
+      <a class="nav-item nav-link" href="genericas.php">Genericas</a>
+      <a class="nav-item nav-link disabled" href="pedidos.php">Pedidos</a>
     </div>
   </div>
 </nav>
 <!-- <dinamic selects query database navbar> -->
-    <h2>Consulta de precios</h2>
+    <h2>Consulta de precios Kurazai</h2>
     Codigo de kurazai:
     <form action="checarPrecio.php" method="post">
     <input type="text" name="codigo" id="">
@@ -333,6 +334,11 @@
 <option value="">	LLANTA Y FRENO TRASERO		</option>
 <option value="">	CUADRO Y MANUBRIO		</option>
     </select>
+    <br>
+    <span>Surfer 125</span>
+    <select id="location9" onchange="setIframeSource9()">
+    <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>
+  </select>
   </form>
     <div></div>
 
@@ -414,6 +420,14 @@ function setIframeSource7() {
 }
 function setIframeSource8() {
    var theSelect = document.getElementById('location8');
+   var theIframe = document.getElementById('myIframe');
+   var theUrl;
+ 
+   theUrl = theSelect.options[theSelect.selectedIndex].value;
+   theIframe.src = theUrl;
+}
+function setIframeSource9() {
+   var theSelect = document.getElementById('location9');
    var theIframe = document.getElementById('myIframe');
    var theUrl;
  
