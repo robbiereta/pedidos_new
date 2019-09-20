@@ -11,6 +11,7 @@
 <script src="scripts/quickgrid.min.js"></script>
 </head>
 <body>
+<h3>Separa</h3>
 <div id="myGrid"></div>
 
 </body>
@@ -18,8 +19,10 @@
 $("#myGrid").quickGrid({
   data: [
     {
-      property1: "default, ",
-      property2: "no borrar"
+      property1: "Este es un ejemplo ",
+      property2: "porfavor,no borrar",
+      property3: "no borrar",
+      property4: "no borrar",
     }
   ],
   columns: {
@@ -29,7 +32,15 @@ $("#myGrid").quickGrid({
     },
     property2 : {
       title: "Telefono"
-    }
+    },
+    property3 : {
+      visible: true,
+      title: "Producto"
+    },
+    property4 : {
+      visible: true,
+      title: "Fecha"
+    },
   },
 })
 </script>
