@@ -22,7 +22,8 @@ if($result = mysqli_query($link, $sql)){
                 echo "<td> Descripción: " . $row['Descripcion'] . "</td>";
                 echo "<hr>";
                 echo "<td> <h2>Precio del producto: $ " . $row['Precio_BiciVic'] . "</h2></td>";
-               
+               $descripcion=$row['Descripcion'];
+               $precio=$row['Precio_BiciVic'];
             echo "</tr>";
         
         echo "</table>";
@@ -39,6 +40,13 @@ if($result = mysqli_query($link, $sql)){
 mysqli_close($link);
 ?>
 <hr>
+<form action="separados.php" method="post">
+    Si deseas separar este producto haz clic aqui .
+    <input type="hidden" name="codigo" value="<?php echo $_POST["codigo"]; ?>">
+    <input type="hidden" name="descripcion" value="<?php echo $descripcion; ?>">
+    <input type="hidden" name="precio" value="<?php echo $precio; ?>">
+    <input type="submit" value="Separar producto">
+</form>
 <br>
     <a href="../pedidos_new">Regresar a seleccion de refacciones</a>
     <!-- transformar la lista de precios a csv para poder subirla a phpmyadmin -->
