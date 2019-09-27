@@ -11,8 +11,8 @@
 <script src="scripts/quickgrid.min.js"></script>
 </head>
 <body>
-<h3>Separa</h3>
-<div id="myGrid"></div>
+<h2>Separados</h2>
+<div id="myGrid"></ div>
 
 </body>
 <script>
