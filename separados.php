@@ -29,7 +29,9 @@ if(isset($_POST["precio"])){
 <label for="fecha">Fecha:</label>
 <input type="date" name="" id="fecha" required>
 <label for="fecha">Anticipo:</label>
-<input type="number" name="" id="anticipo"  onKeyUp="restar()"required >
-Resta:
+<input type="number" name="" id="anticipo" required >
+<input type="hidden" name="codigo" value="<?php echo $_POST["codigo"]; ?>">
+<input type="hidden" name="descripcion" value="<?php echo $descripcion; ?>">
+<input type="hidden" name="precio" value="<?php echo $precio; ?>">
 <input type="submit" value="Hacer separado">
 </form>
