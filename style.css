@@ -1,6 +1,10 @@
-iframe {
-    height: 26em;
+iframe#myIframe{
+    height: 25em;
     width: 500px;
-    margin-left: 29em;
-    margin-top: -25em;
+    margin-left: 33em;
+    margin-top: -37em;
+    margin-bottom: 10em;
+}
+iframe#myIframe {
+    margin-bottom: -13em;
 }

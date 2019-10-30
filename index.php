@@ -157,9 +157,14 @@
 <option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vSRJ3j7NVtxQUMjssoYzptNe1SHwNuR858JfKdUOeAgUMBwsQ3Ot4fK9fxf9Xv4qW-hVllEeX6tXWNH/pubhtml?gid=390377305&single=true">	CUADRO			</option>
     </select>
 
-
     <br>
-    <span>Spartha 2</span>
+    <span>Spartha 1 Naranja Motor 200(2010)</span>
+    <select id="location11" onchange="setIframeSource11()">
+    <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>	
+    </select>
+    
+    <br>
+    <span>Spartha 2 Motor 200(2014)</span>
     <select id="location4" onchange="setIframeSource4()">
     <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>	
     <optgroup label="MOTOR">	MOTOR	</optgroup>
@@ -192,7 +197,40 @@
 <option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=2004236546&single=true">	LLANTA Y FRENO TRASERO	</option>
 <option value= "https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1MMK322GHs9UgI6flK9vbHVAuQifOk0Vx6vni9Gi9pHIlqPOUjk68WFGYhJeGg/pubhtml?gid=1501831682&single=true">	CUADRO	</option>
     </select>
-
+    <br>
+    <span>Spartha 2 Motor 175(2016 en adelante)</span>
+    <select id="location12" onchange="setIframeSource12()">
+    <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>
+    <optgroup label="MOTOR">	MOTOR			</optgroup>
+<option value="">	CABEZA Y CILINDRO			</option>
+<option value="">	VALVULAS Y BALANCINES			</option>
+<option value="">	CARTERS DE MOTOR			</option>
+<option value="">	CLUTCH			</option>
+<option value="">	BOMBA DE ACEITE Y TENSOR DE CADENA			</option>
+<option value="">	CUBIERTAS DE CARTER			</option>
+<option value="">	CIGÜEÑAL Y PISTON			</option>
+<option value="">	TRANSMISION			</option>
+<option value="">	SELECTOR DE CAMBIOS			</option>
+<option value="">	MOTOR DE ARRANQUE			</option>
+<option value="">	MAGNETO			</option>
+<option value="">	CARBURADOR			</option>
+<optgroup label="PLASTICOS">	PLÁSTICOS			</optgroup>
+<option value="">	PLASTICOS			</option>
+<optgroup label="ELECTRICO">	ELÉCTRICO			</optgroup>
+<option value="">	FARO,TABLERO,DIRECCIONALES Y STOP			</option>
+<option value="">	SISTEMA ELECTRICO Y COMPONENTES			</option>
+<option value="">	CONTROL DE MANDOS Y CHICOTES			</option>
+<optgroup label="CHASIS">	CHASIS			</optgroup>
+<option value="">	POSAPIES Y PEDALES			</option>
+<option value="">	FILTRO DE AIRE Y ESCAPE			</option>
+<option value="">	TANQUE DE COMBUSTIBLE			</option>
+<option value="">	BARRAS Y AMORTIGUADOR			</option>
+<option value="">	YUGO			</option>
+<option value="">	LLANTA Y FRENO DELANTERO			</option>
+<option value="">	HORQUILLA			</option>
+<option value="">	LLANTA Y FRENO TRASERO			</option>
+<option value="">	CUADRO			</option>
+    </select>
     <br>
     <span>Fighter 200</span>
     <select id="location5" onchange="setIframeSource5()">
@@ -335,10 +373,71 @@
 <option value="">	CUADRO Y MANUBRIO		</option>
     </select>
     <br>
-    <span>Surfer 125</span>
+    <span>Surfer 125 (2017)</span>
     <select id="location9" onchange="setIframeSource9()">
     <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>
+    <optgroup label="MOTOR">	MOTOR			</optgroup>
+<option value="">	CABEZA Y VALVULAS			</option>
+<option value="">	CILINDRO, CIGÜEÑAL Y PISTÓN			</option>
+<option value="">	CARTERS Y BOMBA DE ACEITE			</option>
+<option value="">	MOTOR DE ARRANQUE			</option>
+<option value="">	CUBIERTA DERECHA DE CARTER			</option>
+<option value="">	TRANSMISION			</option>
+<option value="">	ABANICO DE ARRANQUE			</option>
+<option value="">	CLUTCH CENTRIFUGO			</option>
+<option value="">	TAPA DE POLEAS			</option>
+<option value="">	MAGNETO			</option>
+<option value="">	CUBIERTAS DE VENTILADOR			</option>
+<option value="">	CARBURADOR			</option>
+<optgroup label="PLASTICOS">	PLÁSTICOS			</optgroup>
+<option value="">	PLASTICOS			</option>
+<optgroup label="ELECTRICO">	ELÉCTRICO			</optgroup>
+<option value="">	FARO,DIRECCIONALES Y STOP			</option>
+<option value="">	SISTEMA ELECTRICO Y COMPONENTES			</option>
+<option value="">	TABLERO,BOTONES Y CHICOTES			</option>
+<optgroup label="CHASIS">	CHASIS			</optgroup>
+<option value="">	FILTRO DE AIRE Y TANQUE DE COMBUSTIBLE			</option>
+<option value="">	BARRAS,MANUBRIO Y AMORTIGUADOR			</option>
+<option value="">	FRENO DELANTERO Y TRASERO			</option>
+<option value="">	LLANTA DELANTERA Y TRASERA			</option>
+<option value="">	ESCAPE			</option>
+<option value="">	CUADRO Y PARADORES			</option>
   </select>
+  <br>
+    <span>Fighter 250 (2019)</span>
+    <select id="location10" onchange="setIframeSource10()">
+    <option value= "" selected value="relleno.html">Por favor, selecciona una parte</option>
+    <optgroup label="MOTOR">	MOTOR			</optgroup>
+<option value="">	CABEZA Y CILINDRO			</option>
+<option value="">	VALVULAS Y BALANCINES			</option>
+<option value="">	CARTERS DE MOTOR			</option>
+<option value="">	CLUTCH			</option>
+<option value="">	BOMBA DE ACEITE			</option>
+<option value="">	CUBIERTAS DE CARTER			</option>
+<option value="">	CIGÜEÑAL			</option>
+<option value="">	TRANSMISON			</option>
+<option value="">	SELECTOR DE CAMBIOS			</option>
+<option value="">	MOTOR DE ARRANQUE			</option>
+<option value="">	MAGNETO			</option>
+<option value="">	CARBURADOR			</option>
+<optgroup label="PLASTICOS">	PLÁSTICOS			</optgroup>
+<option value="">	PLASTICOS			</option>
+<optgroup label="ELECTRICO">	ELÉCTRICO			</optgroup>
+<option value="">	FARO, TABLERO, DIRECCIONALES Y STOP			</option>
+<option value="">	SISTEMA ELECTRICO Y COMPONENTES			</option>
+<option value="">	CONTROL DE MANDOS Y CHICOTES			</option>
+<optgroup label="CHASIS">	CHASIS			</optgroup>
+<option value="">	POSAPIES Y PEDALES			</option>
+<option value="">	FILTRO DE AIRE Y ESCAPE			</option>
+<option value="">	TANQUE DE COMBUSTIBLE			</option>
+<option value="">	BARRAS Y AMORTIGUADORES			</option>
+<option value="">	YUGO Y MANUBRIO			</option>
+<option value="">	LLANTA Y FRENO DELANTERO			</option>
+<option value="">	HORQUILLA			</option>
+<option value="">	LLANTA Y FRENO TRASERO			</option>
+<option value="">	CUADRO			</option>
+  </select>
+  
   </form>
     <div></div>
 
@@ -428,6 +527,30 @@ function setIframeSource8() {
 }
 function setIframeSource9() {
    var theSelect = document.getElementById('location9');
+   var theIframe = document.getElementById('myIframe');
+   var theUrl;
+ 
+   theUrl = theSelect.options[theSelect.selectedIndex].value;
+   theIframe.src = theUrl;
+}
+function setIframeSource10() {
+   var theSelect = document.getElementById('location10');
+   var theIframe = document.getElementById('myIframe');
+   var theUrl;
+ 
+   theUrl = theSelect.options[theSelect.selectedIndex].value;
+   theIframe.src = theUrl;
+}
+function setIframeSource11() {
+   var theSelect = document.getElementById('location11');
+   var theIframe = document.getElementById('myIframe');
+   var theUrl;
+ 
+   theUrl = theSelect.options[theSelect.selectedIndex].value;
+   theIframe.src = theUrl;
+}
+function setIframeSource12() {
+   var theSelect = document.getElementById('location12');
    var theIframe = document.getElementById('myIframe');
    var theUrl;
  
