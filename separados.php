@@ -28,7 +28,7 @@ if(isset($_POST["precio"])){
 <input type="number" name="" id="telefono"required>
 <label for="fecha">Fecha:</label>
 <input type="date" name="" id="fecha" required>
-<label for="fecha">Anticipo:</label>
+<label for="fecha">Anticipo:</label>git
 <input type="number" name="" id="anticipo" required >
 <input type="hidden" name="codigo" value="<?php echo $_POST["codigo"]; ?>">
 <input type="hidden" name="descripcion" value="<?php echo $descripcion; ?>">

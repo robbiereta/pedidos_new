@@ -27,7 +27,7 @@
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Kurazai <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="genericas.php">Genericas</a>
-      <a class="nav-item nav-link disabled" href="pedidos.php">Pedidos</a>
+      <a class="nav-item nav-link " href="cotizaciones.php">Cotizaciones</a>
     </div>
   </div>
 </nav>

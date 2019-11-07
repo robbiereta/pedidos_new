@@ -15,15 +15,15 @@ for ($i=2;$i<count($this->company);$i++) {
 	$this->data .= "<div>".$this->company[$i]."</div>";
 }
 $this->data .= "</td></tr></table>";
-$this->data .= "<div id='bigi'>SALES INVOICE</div>";
+$this->data .= "<div id='bigi'>Cotización</div>";
 
 // BILL TO
-$this->data .= "<table id='billship'><tr><td><strong>BILL TO</strong><br>";
+$this->data .= "<table id='billship'><tr><td><strong>Con atención a:</strong><br>";
 foreach ($this->billto as $b) { $this->data .= $b."<br>"; }
 
-// SHIP TO
-$this->data .= "</td><td><strong>SHIP TO</strong><br>";
-foreach ($this->shipto as $s) { $this->data .= $s."<br>"; }
+// // SHIP TO
+// $this->data .= "</td><td><strong>SHIP TO</strong><br>";
+// foreach ($this->shipto as $s) { $this->data .= $s."<br>"; }
 
 // INVOICE INFO
 $this->data .= "</td><td>";
@@ -33,7 +33,7 @@ foreach ($this->invoice as $i) {
 $this->data .= "</td></tr></table>";
 
 // ITEMS
-$this->data .= "<table id='items'><tr><th>Item</th><th>Quantity</th><th>Unit Price</th><th>Amount</th></tr>";
+$this->data .= "<table id='items'><tr><th>Producto</th><th>Cantidad</th><th>Precio unitario</th><th>Importe</th></tr>";
 foreach ($this->items as $i) {
 	$this->data .= "<tr><td><div>".$i[0]."</div>".($i[1]==""?"":"<small class='idesc'>$i[1]</small>")."</td><td>".$i[2]."</td><td>".$i[3]."</td><td>".$i[4]."</td></tr>";
 }

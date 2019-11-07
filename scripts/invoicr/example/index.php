@@ -15,28 +15,25 @@ $invoice = new Invoicr();
 // 2A - COMPANY INFORMATION
 // OR YOU CAN PERMANENTLY CODE THIS INTO THE LIBRARY ITSELF
 $invoice->set("company", [
-	(isset($_SERVER['HTTPS']) ? "https://" : "http://") . $_SERVER['HTTP_HOST'] . parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "cb-logo.png",
-	__DIR__ . DIRECTORY_SEPARATOR . "cb-logo.png", 
-	"Code Boxx", 
-	"Street Address, City, State, Zip",
-	"Phone: xxx-xxx-xxx | Fax: xxx-xxx-xxx",
-	"https://code-boxx.com",
-	"doge@code-boxx.com"
+	(isset($_SERVER['HTTPS']) ? "https://" : "http://") . $_SERVER['HTTP_HOST'] . parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "cb-logo-copia.png",
+	__DIR__ . DIRECTORY_SEPARATOR . "cb-logo-copia.png", 
+	"Bici-Vic", 
+	"Amelia Olvera Zamarripa",
+	"RFC: OEZA6309131S0",
+	"Carrera Torres #742 ,Col.Heroe de Nacozari, 87030",
+	"Ciudad Victoria, Tamaulipas",
+	"bici.vic2@gmail.com"
 ]);
 
 // 2B - INVOICE INFO
 $invoice->set("invoice", [
-	["Invoice #", "CB-123-456"],
-	["DOP", "2011-11-11"],
-	["P.O. #", "CB-789-123"],
-	["Due Date", "2011-12-12"]
+	["Cotizacion #", "CT-123"],
+	["Fecha", "06-11-19"],
 ]);
 
 // 2C - BILL TO
 $invoice->set("billto", [
 	"Customer Name",
-	"Street Address", 
-	"City, State, Zip"
 ]);
 
 // 2D - SHIP TO
@@ -60,14 +57,14 @@ foreach ($items as $i) { $invoice->add("items", $i); }
 // 2F - TOTALS
 $invoice->set("totals", [
 	["SUB-TOTAL", "$108.00"],
-	["DISCOUNT 10%", "-$10.80"],
-	["GRAND TOTAL", "$97.20"]
+	["DESCUENTO", "$10.80"],
+	["TOTAL", "$97.20"]
 ]);
 
 // 2G - NOTES, IF ANY
 $invoice->set("notes", [
-	"Cheques should be made payable to Code Boxx",
-	"Get a 10% off with the next purchase with discount code DOGE1234!"
+	"PRECIO CON IVA INCLUIDO.",
+	"Muchas gracias por su preferencia."
 ]);
 
 
